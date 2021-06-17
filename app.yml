@@ -18,7 +18,7 @@ default_events:
   # - commit_comment
   # - create
   # - delete
-  - deployment
+  # - deployment
   # - deployment_status
   # - fork
   # - gollum
@@ -66,7 +66,7 @@ default_permissions:
 
   # Deployments and deployment statuses.
   # https://developer.github.com/v3/apps/permissions/#permission-on-deployments
-  deployments: write
+  # deployments: write
 
   # Issues and related comments, assignees, labels, and milestones.
   # https://developer.github.com/v3/apps/permissions/#permission-on-issues
